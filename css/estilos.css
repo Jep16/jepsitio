@@ -1,0 +1,365 @@
+/* importamos las fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Londrina+Solid:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+.inicio{
+    height: 100%;
+}
+.fondo-cielo{
+    position: absolute;
+    width: 100%;
+    background-size: cover;
+    height: 85%;
+    z-index: -10; 
+}
+.fondo-inicio{
+    background-size: cover;
+    background-position: bottom;
+    position: absolute;
+    top: 0;
+    height: 130%;
+    width: 100%;
+   
+}
+.inicio .contenido-seccion{
+    max-width: 1200px;
+    margin: auto;
+}
+.inicio .contenido-seccion header{
+    padding: 50px 20px;
+    z-index: 100;
+    position: relative;
+
+}
+.inicio .contenido-seccion header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Londrina Solid';
+}
+.inicio .contenido-seccion header nav a{
+    text-decoration: none;
+    color: #334755;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.inicio .contenido-seccion header nav a i{
+    font-size: 30px;
+}
+.titulo{
+    font-family: 'Finger Paint';
+    text-align: center;
+    font-size: 12rem;
+    color: #334755;
+    position: relative;
+}
+/* SECCION EN QUE CONSISTE */
+.tours{
+    text-align: center;
+    max-width: 1100px;
+    margin: auto;
+    background: #fff;
+    margin-top: 100px;
+    z-index: 100;
+}
+h2{
+    color: #334755;
+    font-size: 20px;
+    font-family: 'Londrina Solid';
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.tours > p{
+    color: #666;
+    line-height: 35px;
+    font-size: 20px;
+}
+.tours .fila{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.tours .fila .col{
+    width: 30%;
+
+}
+.tours .fila i{
+    font-size: 35px;
+    color: #334755;
+    display: inline-block;
+}
+.tours .fila p{
+    color: #666;
+    font-size: 18px;
+    margin-top: 15px;
+    line-height: 25px;
+}
+/* SECCION POR QUE SEGUIR LA DIETA BARF */
+.info{
+    position: relative;
+}
+.info img{
+    width: 70%;
+}
+.info .texto{
+    background: rgba(255,255,255,.7);
+    max-width: 600px;
+    border: 2px solid #334755;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    transform: translateY(-50%);
+}
+.info .texto p{
+    margin: 10px 0;
+    color: #666;
+    font-size: 18px;
+    margin-top: 15px;
+    line-height: 25px;
+}
+.info .texto button{
+    background-color: #fff;
+    border: none;
+    border: 2px solid #334755;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: #666;
+    margin-top: 40px;
+    cursor: pointer;
+}
+/* SECCION CUIDALOS */
+.descubrir .contenido-seccion{
+    position: relative;
+    width: 100%;
+    bottom:  140px;
+}
+.descubrir .contenido-seccion img{
+    width: 100%;
+}
+.descubrir .contenido-seccion .info{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    max-width: 900px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 150px;
+}
+.descubrir .contenido-seccion .info p{
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 15px;
+    line-height: 25px;
+}
+.descubrir .contenido-seccion button{
+    background-color: #fff;
+    border: none;
+    border: 2px solid #334755;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: #666;
+    margin-top: 40px;
+    cursor: pointer;
+}
+/* SECCION BENEFICIOS */
+.coleccion{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+.coleccion .fila{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.coleccion .fila img{
+    max-height: 120px;
+}
+.coleccion .fila .col{
+    margin: 0 30px;
+    border: 2px solid #334755;
+    max-width: 150px;
+    width: 100%;
+    text-align: center;
+}
+.coleccion .fila .col .nombre{
+    color: #334755;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin: 20px 0;
+}
+.coleccion .fila .col h3{
+    border: 2px solid #334755;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 5px 15px;
+}
+/* SECCION SANOS */
+.surfing{
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+.surfing .posicion{
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    width: 100%;
+    color: #000000;
+}
+/* SECCION SUBSCRIBASE */
+.subscribase{
+    text-align: center;
+    padding: 60px 0;
+}
+.subscribase input{
+    display: inline-block;
+    margin-top: 20px;
+    width: 400px;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #334755;
+    text-align: center;
+}
+/* SECCION ES AHORA */
+.esahora{
+    background-size: cover;
+    height: 300vh;
+    position: center;
+    
+}
+.esahora .redes{
+    text-align: center;
+}
+.esahora .redes a{
+    text-decoration: none;
+    font-size: 40px;
+    display: inline-block;
+    margin: 0 30px;
+    color: #18385c;
+}
+.esahora .color{
+    color: #18385c;
+}
+/* SECCION SLIDER */
+.imagenes {
+width: 800px;
+height: 380px;
+position: absolute;
+right: 0;
+
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.swiper-slide h3 {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    color: #ffffff;
+    font-family: 'Finger Paint';
+    font-size: 40px;
+    text-transform: uppercase;
+
+}
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+
+
+}
+
+.rows {
+    width: 100px;
+    position: absolute;
+    right: 530;
+    bottom: 280px;
+
+
+
+}
+
+.swiper-button-prev {
+    height: 50px;
+    width: 50px;
+    border: 4px solid #842828;
+    border-radius: 50%;
+    font-size: 15px;
+
+}
+
+.swiper-button-next {
+    height: 50px;
+    width: 50px;
+    border: 4px solid #842828;
+    border-radius: 50%;
+    font-size: 15px;
+
+}
+
+.swiper-button-prev::after {
+    font-size: 25px;
+    color: #842828;
+
+}
+
+.swiper-button-next::after {
+    font-size: 25px;
+    color: #842828;
+    
+}
+
+@media(max-width:991px) {
+
+    .menu {
+        padding: 30px;
+    }
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #3f3f3f48;
+        backdrop-filter: blur(5px);
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+
+
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+
+    }
+
+    .iconos {
+        display: none;
+    }
+}
